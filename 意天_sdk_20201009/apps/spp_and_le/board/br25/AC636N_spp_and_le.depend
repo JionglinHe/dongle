@@ -1,0 +1,1590 @@
+# depslib dependency file v1.0
+1602137064 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\adc_api.c
+	"typedef.h"
+	"asm/clock.h"
+	"asm/adc_api.h"
+	"timer.h"
+	"init.h"
+	"asm/efuse.h"
+	"irq.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+	"jiffies.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"generic/errno-base.h"
+	"string.h"
+	"strings.h"
+	"system/malloc.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\cpu.h
+	"br25.h"
+	"csfr.h"
+	"asm/irq.h"
+	"generic/printf.h"
+	"system/generic/log.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\br25.h
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\csfr.h
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\irq.h
+	"asm/hwi.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\hwi.h
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\errno-base.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\malloc.h
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\clock.h
+	"typedef.h"
+	"clock_hw.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\clock_hw.h
+	"typedef.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\adc_api.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\timer.h
+	"typedef.h"
+	"generic/list.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\list.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\init.h
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\efuse.h
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\power\p33.h
+	"typedef.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\power_interface.h
+	"generic/typedef.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\jiffies.h
+
+1602137064 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\charge.c
+	"asm/clock.h"
+	"timer.h"
+	"asm/power/p33.h"
+	"asm/charge.h"
+	"uart.h"
+	"device/device.h"
+	"asm/power_interface.h"
+	"system/event.h"
+	"asm/efuse.h"
+	"gpio.h"
+	"debug.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\charge.h
+	"typedef.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\uart.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\ioctl_cmds.h
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\ioctl.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\task.h
+	"os/os_api.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\os_api.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_error.h"
+	"os/os_type.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\os_error.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\os_type.h
+	"FreeRTOS/FreeRTOS.h"
+	"FreeRTOS/semphr.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\freertos.h
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\freertosconfig.h
+	"pi32v2/portmacro.h"
+	"pi32_lto/portmacro.h"
+	"q32s/portmacro.h"
+	"printf.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\pi32v2\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\pi32_lto\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\q32s\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\projdefs.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\mpu_wrappers.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\semphr.h
+	"queue.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\os\freertos\queue.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\gpio.h
+	"typedef.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\debug.h
+	"asm/cpu.h"
+	"generic/typedef.h"
+
+1602137060 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\chargestore.c
+	"generic/typedef.h"
+	"generic/gpio.h"
+	"asm/power/p33.h"
+	"asm/hwi.h"
+	"asm/gpio.h"
+	"asm/clock.h"
+	"asm/chargestore.h"
+	"update.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\chargestore.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\update\update.h
+	"typedef.h"
+
+1602137060 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\iic_hw.c
+	"asm/iic_hw.h"
+	"system/generic/gpio.h"
+	"system/generic/log.h"
+	"asm/clock.h"
+	"asm/cpu.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\iic_hw.h
+	"system/generic/typedef.h"
+
+1602137060 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\iic_soft.c
+	"asm/iic_soft.h"
+	"generic/gpio.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\iic_soft.h
+	"generic/typedef.h"
+
+1602137064 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\mcpwm.c
+	"asm/mcpwm.h"
+	"asm/clock.h"
+	"asm/gpio.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\mcpwm.h
+	"typedef.h"
+
+1602137064 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\port_wkup.c
+	"typedef.h"
+	"irq.h"
+	"asm/gpio.h"
+
+1602137064 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\pwm_led.c
+	"generic/gpio.h"
+	"asm/includes.h"
+	"asm/pwm_led.h"
+	"system/timer.h"
+	"board_config.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\includes.h
+	"asm/cpu.h"
+	"asm/crc16.h"
+	"asm/clock.h"
+	"asm/uart.h"
+	"asm/uart_dev.h"
+	"asm/gpio.h"
+	"asm/spiflash.h"
+	"asm/csfr.h"
+	"asm/power_interface.h"
+	"asm/efuse.h"
+	"asm/wdt.h"
+	"asm/debug.h"
+	"asm/charge.h"
+	"asm/power/p33.h"
+	"asm/timer.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\crc16.h
+	"typedef.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\uart_dev.h
+	"typedef.h"
+	"os/os_api.h"
+	"jiffies.h"
+	"irq.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\spiflash.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\wdt.h
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\debug.h
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\timer.h
+	"typedef.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\pwm_led.h
+
+1602139442 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_config.h
+	"board_ac636n_demo_cfg.h"
+	"board_ac6368b_dongle_cfg.h"
+	"board_ac6363f_demo_cfg.h"
+	"board_ac6366c_demo_cfg.h"
+	"board_ac6368a_demo_cfg.h"
+	"board_ac6369f_demo_cfg.h"
+	"board_ac6369c_demo_cfg.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac636n_demo_cfg.h
+	"usb_std_class_def.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\usb_std_class_def.h
+
+1602139500 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6368b_dongle_cfg.h
+	"usb_std_class_def.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6363f_demo_cfg.h
+	"usb_std_class_def.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6366c_demo_cfg.h
+	"usb_std_class_def.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6368a_demo_cfg.h
+	"usb_std_class_def.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6369f_demo_cfg.h
+	"usb_std_class_def.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6369c_demo_cfg.h
+	"usb_std_class_def.h"
+
+1602137060 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\setup.c
+	"asm/includes.h"
+	"system/task.h"
+	"timer.h"
+	"system/init.h"
+	"app_config.h"
+	"gpio.h"
+	"debug.h"
+
+1602140669 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\app_config.h
+	"board_config.h"
+	"usb_common_def.h"
+	"btcontroller_mode.h"
+	"user_cfg_id.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\usb_common_def.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\btcontroller_mode.h
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\user_cfg_id.h
+
+1602137064 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\spi.c
+	"system/debug.h"
+	"generic/gpio.h"
+	"asm/clock.h"
+	"asm/spi.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\spi.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1602137060 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\uart_dev.c
+	"asm/clock.h"
+	"asm/uart_dev.h"
+	"asm/cpu.h"
+	"generic/gpio.h"
+	"spinlock.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1602137060 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\ui_driver\lcd_seg\lcd_seg3x9_driver.c
+	"includes.h"
+	"app_config.h"
+	"ui/ui_api.h"
+	"lcd_seg3x9_driver_cfg.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"app_msg.h"
+	"database.h"
+	"fs/fs.h"
+	"power_manage.h"
+	"syscfg_id.h"
+	"bank_switch.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+	"device/sdio_host_init.h"
+	"crypto_toolbox/crypto.h"
+	"crypto_toolbox/Crypto_hash.h"
+	"crypto_toolbox/hmac.h"
+	"crypto_toolbox/sha256.h"
+	"crypto_toolbox/bigint.h"
+	"crypto_toolbox/bigint_impl.h"
+	"crypto_toolbox/ecdh.h"
+	"crypto_toolbox/micro-ecc/uECC_new.h"
+	"crypto_toolbox/micro-ecc/uECC.h"
+	"crypto_toolbox/aes_cmac.h"
+	"crypto_toolbox/rijndael.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\wait.h
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\app_core.h
+	"typedef.h"
+	"generic/list.h"
+	"system/event.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\app_msg.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\database.h
+	"typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/sys_time.h"
+	"stdarg.h"
+	"fs_file_name.h"
+	"sdfile.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\sys_time.h
+	"typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\fs\fs_file_name.h
+	"generic/typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\fs\sdfile.h
+	"typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\power_manage.h
+	"generic/typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\syscfg_id.h
+	"typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\bank_switch.h
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"lbuf_lite.h"
+	"circular_buf.h"
+	"index.h"
+	"debug_lite.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\version.h
+	"typedef.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\lbuf_lite.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\index.h
+	"typedef.h"
+
+1602137065 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\generic\debug_lite.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"irkey.h"
+	"adkey.h"
+	"slidekey.h"
+	"touch_key.h"
+	"rdec_key.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\key_driver.h
+	"typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\irkey.h
+	"typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\adkey.h
+	"typedef.h"
+	"asm/adc_api.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\slidekey.h
+	"typedef.h"
+	"device/device.h"
+	"asm/adc_api.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\touch_key.h
+	"typedef.h"
+	"asm/plcnt.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\plcnt.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\rdec_key.h
+	"typedef.h"
+	"asm/rdec.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\rdec.h
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\sdio_host_init.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\crypto.h
+	"endian.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\endian.h
+	"generic/typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\crypto_hash.h
+	"generic/typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\hmac.h
+	"crypto.h"
+	"sha256.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\sha256.h
+	"crypto.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\bigint.h
+	"bigint_impl.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\bigint_impl.h
+	"generic/typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\ecdh.h
+	"bigint_impl.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\micro-ecc\uecc_new.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\micro-ecc\uecc.h
+	<stdint.h>
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\aes_cmac.h
+	<stdint.h>
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\crypto_toolbox\rijndael.h
+	<stdint.h>
+
+1602137060 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\ui_driver\led7\led7_driver.c
+	"includes.h"
+	"app_config.h"
+	"system/device/vm.h"
+	"ui/ui_api.h"
+	"led7_driver_cfg.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1602137060 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\ui_driver\led_1888\led1888.c
+	"includes.h"
+	"app_config.h"
+	"ui/ui_api.h"
+	"LED1888.h"
+
+1602137060 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\cpu\br25\ui_driver\ui_common.c
+	"includes.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\bt_common\bt_test_api.c
+	"typedef.h"
+	"app_config.h"
+	"task.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\debug\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\key\adkey.c
+	"key_driver.h"
+	"adkey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\key\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+	"asm/clock.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\key\key_driver.c
+	"device/key_driver.h"
+	"system/event.h"
+	"system/init.h"
+	"iokey.h"
+	"adkey.h"
+	"slidekey.h"
+	"irkey.h"
+	"touch_key.h"
+	"system/timer.h"
+	"asm/power_interface.h"
+	"app_config.h"
+	"rdec_key.h"
+	"irSensor/ir_manage.h"
+	"debug.h"
+	"asm/ctmu.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\common\custom_cfg.c
+	"board_config.h"
+	"custom_cfg.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_bluetooth.h"
+	"rcsp_adv_user_update.h"
+	"rcsp_adv_bluetooth.h"
+	"smartbox_adv_bluetooth.h"
+	"app_config.h"
+	"fs.h"
+	"uart.h"
+	<string.h>
+	"flash_api.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\common\custom_cfg.h
+	"typedef.h"
+	<string.h>
+	"app_config.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_updata\rcsp_user_update.h
+	"typedef.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_bluetooth.h
+	"typedef.h"
+	"le_common.h"
+	"spp_user.h"
+	"system/event.h"
+	"rcsp_msg.h"
+	"ble_user.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\le_common.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/bluetooth.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\bluetooth.h
+	"typedef.h"
+	"le/ble_data_types.h"
+	"le/ble_api.h"
+	"le/le_user.h"
+	"le/att.h"
+	"le/gatt.h"
+	"le/sm.h"
+	"third_party/baidu/dma_protobuf.h"
+	"third_party/baidu/dueros_dma.h"
+	"third_party/baidu/dueros_dma_pb.h"
+	"third_party/baidu/dueros_platform.h"
+	"btstack_event.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\le\ble_data_types.h
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\le\ble_api.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\btstack_typedef.h
+	"typedef.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\le\le_user.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+	"ble_api.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\le\att.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\le\gatt.h
+	"typedef.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\le\sm.h
+	"typedef.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\baidu\dma_protobuf.h
+	<string.h>
+	<stdint.h>
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\baidu\dueros_dma.h
+	<string.h>
+	<stdint.h>
+	"btstack/third_party/baidu/dueros_dma_pb.h"
+	"btstack/third_party/baidu/dueros_platform.h"
+	"typedef.h"
+	"btstack/frame_queque.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\baidu\dueros_dma_pb.h
+	<string.h>
+	<stdint.h>
+	"dma_protobuf.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\baidu\dueros_platform.h
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\frame_queque.h
+	<string.h>
+	<stdint.h>
+	"typedef.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\btstack_event.h
+	"btstack/btstack_typedef.h"
+	<stdint.h>
+	"le/gatt.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\common\spp_user.h
+	"typedef.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_msg.h
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\common\ble_user.h
+	"typedef.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_bluetooth.c
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"app_config.h"
+	"rcsp_bluetooth.h"
+	"string.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"btstack/avctp_user.h"
+	"system/timer.h"
+	"app_core.h"
+	"rcsp_user_update.h"
+	"spp_user.h"
+	"rcsp_msg.h"
+	"app_config.h"
+	"app_action.h"
+	"custom_cfg.h"
+	"btstack_3th_protocol_user.h"
+	"key_event_deal.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"ui/ui_api.h"
+	"audio_eq.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\rcsp\jl_rcsp_api.h
+	"typedef.h"
+	"uart.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\rcsp\jl_rcsp_protocol.h
+	"typedef.h"
+	"JL_rcsp_packet.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\rcsp\jl_rcsp_packet.h
+	"typedef.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\avctp_user.h
+	"typedef.h"
+	"btstack_typedef.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\app_action.h
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\common\btstack_3th_protocol_user.h
+	"spp_config.h"
+	"ble_config.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"attr.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\common\spp_config.h
+	"typedef.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\common\ble_config.h
+	"typedef.h"
+	"ble_user.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\third_party\rcsp\attr.h
+	"typedef.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\key_event_deal.h
+	"typedef.h"
+	"system/event.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_updata\rcsp_ch_loader_download.c
+	"update.h"
+	"uart.h"
+	"update_loader_download.h"
+	"system/fs/fs.h"
+	"rcsp_user_update.h"
+	"JL_rcsp_protocol.h"
+	"le_rcsp_adv_module.h"
+	<string.h>
+	"update_tws_new.h"
+	"update_tws.h"
+	"bt_tws.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\update\update_loader_download.h
+	"typedef.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\jl_rcsp\bt_trans_data\le_rcsp_adv_module.h
+	<stdint.h>
+	"bt_common.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\include\bt_common.h
+	<stdint.h>
+	"app_config.h"
+	"lib_profile_cfg.h"
+	"bt_profile_cfg.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\lib_profile_cfg.h
+	"app_config.h"
+	"btcontroller_modules.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\btcontroller_modules.h
+	"hci_transport.h"
+	"btcontroller_mode.h"
+	"ble/hci_ll.h"
+	"classic/hci_lmp.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\hci_transport.h
+	"generic/typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\ble\hci_ll.h
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"typedef.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\classic\hci_lmp.h
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\include\update_tws.h
+	"app_config.h"
+	"system/event.h"
+	"update_loader_download.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_updata\rcsp_user_update.c
+	"rcsp_user_update.h"
+	"app_config.h"
+	"uart.h"
+	"system/timer.h"
+	"update.h"
+	"custom_cfg.h"
+	"btstack/avctp_user.h"
+	"JL_rcsp_packet.h"
+	"JL_rcsp_protocol.h"
+	"rcsp_bluetooth.h"
+	"update_loader_download.h"
+	"classic/tws_api.h"
+	"btstack_3th_protocol_user.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\classic\tws_api.h
+	"typedef.h"
+	"classic/tws_event.h"
+	"classic/tws_local_media_sync.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\le_at_client.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_common.h"
+	"ble_user.h"
+	"le_client_demo.h"
+	"le_at_client.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\btstack_task.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\user_cfg.h
+	"typedef.h"
+	"app_config.h"
+
+1600219575 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\le_client_demo.h
+	<stdint.h>
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\le_at_client.h
+	<stdint.h>
+	"at.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\at.h
+	"typedef.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\le_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"at.h"
+	"le_at_com.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\common\3th_profile_api.h
+	<string.h>
+	<stdint.h>
+	"le_common.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\le_at_com.h
+	<stdint.h>
+	"bt_common.h"
+
+1602211768 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\le_client_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+	"ble_user.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\spp_at_com.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"spp_at_com.h"
+	"at.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\trans_data_demo\spp_trans_data.h
+	"typedef.h"
+	"bt_common.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\spp_at_com.h
+	"typedef.h"
+	"bt_common.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\trans_data_demo\le_trans_data.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_trans_data.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\trans_data_demo\le_trans_data.h
+	<stdint.h>
+	"app_config.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\third_party_profile\jieli\trans_data_demo\spp_trans_data.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"spp_trans_data.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\update\update.c
+	"update.h"
+	"update_loader_download.h"
+	"asm/crc16.h"
+	"asm/wdt.h"
+	"os/os_api.h"
+	"app_config.h"
+	"cpu.h"
+	"syscfg_id.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"ui/ui_api.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"custom_cfg.h"
+	"update_tws.h"
+	"system/debug.h"
+	"tone_player.h"
+	"audio_config.h"
+	"asm/pwm_led.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\device\descriptor.c
+	"usb/device/usb_stack.h"
+	"usb/device/descriptor.h"
+	"usb/device/uac_audio.h"
+	"app_config.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\device\usb_stack.h
+	"typedef.h"
+	"asm/usb.h"
+	"usb/ch9.h"
+	"usb/usb_phy.h"
+	"usb/otg.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\cpu\br25\asm\usb.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\ch9.h
+	"typedef.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\usb_phy.h
+	"typedef.h"
+	"asm/usb.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\otg.h
+	"asm/usb.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\device\descriptor.h
+	"asm/usb.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\device\uac_audio.h
+	"asm/usb.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\device\task_pc.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"app_task.h"
+	"os/os_api.h"
+	"device/sdmmc.h"
+	"usb/usb_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/hid.h"
+	"usb/device/msd.h"
+	"audio_config.h"
+	"app_charge.h"
+	"media/audio_base.h"
+	"asm/charge.h"
+	"dev_multiplex_api.h"
+	"debug.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\app_task.h
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\sdmmc.h
+	"generic/typedef.h"
+	"generic/ioctl.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\usb_config.h
+	"typedef.h"
+	"asm/usb.h"
+	"usb/device/usb_stack.h"
+	"usb/host/usb_host.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\host\usb_host.h
+	"system/task.h"
+	"device/device.h"
+	"asm/usb.h"
+	"usb/ch9.h"
+	"usb/usb_phy.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\device\hid.h
+	"typedef.h"
+	"asm/usb.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\device\msd.h
+	"asm/usb.h"
+	"usb_stack.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\app_charge.h
+	"typedef.h"
+	"system/event.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\media\media_develop\media\audio_base.h
+
+1602208008 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\device\usb_device.c
+	"usb/device/usb_stack.h"
+	"usb_config.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb/device/hid.h"
+	"usb/device/uac_audio.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"app_config.h"
+
+1602137067 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\driver\device\usb\scsi.h
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\device\user_setup.c
+	"usb/device/usb_stack.h"
+	"usb_config.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb/device/hid.h"
+	"usb/device/uac_audio.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"app_config.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\usb_bulk_transfer.c
+	<string.h>
+	"jiffies.h"
+	"usb_config.h"
+	"usb_bulk_transfer.h"
+	"usb_ctrl_transfer.h"
+	"usb_storage.h"
+	"usb/host/usb_host.h"
+	"usb/usb_phy.h"
+	"app_config.h"
+	"device_drive.h"
+	"debug.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\usb_bulk_transfer.h
+	"typedef.h"
+	"device/device.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\usb_ctrl_transfer.h
+	"usb/ch9.h"
+	"usb/usb_phy.h"
+	"device/device.h"
+	"usb_config.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\usb_storage.h
+	"system/task.h"
+	"device/device.h"
+	"usb/scsi.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\device\device_drive.h
+	"typedef.h"
+	"errno-base.h"
+	"ioctl.h"
+	"os/os_api.h"
+	<pthread.h>
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\usb_ctrl_transfer.c
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"app_config.h"
+	"device_drive.h"
+	"gpio.h"
+	"usb/scsi.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\usb_host.c
+	"includes.h"
+	"app_config.h"
+	"device_drive.h"
+	"usb_config.h"
+	"usb/host/usb_host.h"
+	"usb/usb_phy.h"
+	"usb_ctrl_transfer.h"
+	"usb_storage.h"
+	"adb.h"
+	"aoa.h"
+	"hid.h"
+	"debug.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\adb.h
+	"system/task.h"
+	"device/device.h"
+	"usb/scsi.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\aoa.h
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\hid.h
+	"system/task.h"
+	"device/device.h"
+	"usb/scsi.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\usb_storage.c
+	"asm/includes.h"
+	"system/timer.h"
+	"device/ioctl_cmds.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"device_drive.h"
+	"usb_storage.h"
+	"usb_config.h"
+	"app_config.h"
+	"debug.h"
+
+1602207132 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\usb_config.c
+	"usb_config.h"
+	"usb/scsi.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"app_config.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\usb_host_config.c
+	"usb_config.h"
+	"usb/scsi.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"app_config.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\app_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"le_client_demo.h"
+	"debug.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\port\br25\btcontroller_config.h
+	"btcontroller_modules.h"
+	"ble/ll_config.h"
+	"classic/lmp_config.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\ble\ll_config.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\classic\lmp_config.h
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btctrler\btctrler_task.h
+	"typedef.h"
+	"system/task.h"
+
+1602137064 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\system\config\config_transport.h
+	"typedef.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\app_charge.c
+	"app_config.h"
+	"asm/charge.h"
+	"asm/pwm_led.h"
+	"system/event.h"
+	"system/app_core.h"
+	"system/includes.h"
+	"app_action.h"
+	"asm/wdt.h"
+	"app_main.h"
+	"debug.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\app_main.h
+
+1602235873 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\app_dongle.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"le_client_demo.h"
+	"usb/device/hid.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\app_idle.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\app_main.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"update.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\app_spp_and_le.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"le_client_demo.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\at_cmds.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"spp_at_com.h"
+	"le_at_com.h"
+	"le_at_client.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\at_uart.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\lib_config\lib_btctrler_config.c
+	"app_config.h"
+	"system/includes.h"
+	"btcontroller_config.h"
+	"bt_common.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\lib_config\lib_driver_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\lib_config\lib_profile_config.c
+	"system/includes.h"
+	"app_config.h"
+	"btcontroller_config.h"
+	"btstack/bt_profile_config.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"debug.h"
+
+1602137066 c:\users\zpc20-016\desktop\意天_sdk_20201009\include_lib\btstack\bt_profile_config.h
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\lib_config\lib_system_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\lib_config\lib_update_config.c
+	"app_config.h"
+	"system/includes.h"
+	"update_loader_download.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\log_config.c
+	"system/includes.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\misc.c
+	"system/includes.h"
+	"server/server_core.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\rtc_alarm.c
+	"rtc_alarm.h"
+	"system/timer.h"
+	"app_config.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\include\rtc_alarm.h
+	"typedef.h"
+	"system/includes.h"
+
+1602209214 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\usb_hid_devices.c
+	"os/os_api.h"
+	"app_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/hid.h"
+	"usb_config.h"
+	"timer.h"
+	"usb/host/usb_hid_keys.h"
+	"debug.h"
+
+1602137053 c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\common\usb\host\usb_hid_keys.h
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\user_cfg.c
+	"app_config.h"
+	"user_cfg.h"
+	"fs.h"
+	"string.h"
+	"system/includes.h"
+	"vm.h"
+	"btcontroller_config.h"
+	"app_main.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6363f_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"asm/pwm_led.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6366c_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"asm/pwm_led.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6368a_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"asm/pwm_led.h"
+	"debug.h"
+
+1600219574 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6368b_dongle.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"asm/pwm_led.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6369c_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"asm/pwm_led.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac6369f_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"asm/pwm_led.h"
+	"debug.h"
+
+1602137053 source:c:\users\zpc20-016\desktop\意天_sdk_20201009\apps\spp_and_le\board\br25\board_ac636n_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"asm/pwm_led.h"
+	"debug.h"
+
